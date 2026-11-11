@@ -1,0 +1,39 @@
+Problem Statement
+You are given two integers x and y, where x > y.
+
+You can choose any prime number p and subtract that same prime number from x any number of times.
+
+Your task is to determine whether it is possible to make x equal to y.
+
+Print YES if possible, otherwise print NO.
+Input
+- First line contains integer t — number of test cases.
+- Each test case contains two integers x and y.
+- Constraints:
+  - \(1 \leq t \leq 1000\)
+  - \(1 \leq y < x \leq 10^{18}\)
+Example
+Input:
+4
+100 98
+42 32
+1000000000000000000 1
+41 40
+
+Output:
+YES
+YES
+YES
+NO
+
+
+Your task
+Implement this in Java:
+public static void solve(long x, long y)
+
+
+Hint — Think mathematically
+You need to reduce x to y.
+- What is the total amount you need to subtract?
+- What is the smallest prime number?
+- Can you subtract the same prime multiple times?

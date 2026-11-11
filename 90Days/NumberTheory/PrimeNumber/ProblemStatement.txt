@@ -1,0 +1,43 @@
+Problem Statement:
+
+Given an integer n, determine whether it is a prime number or not.
+
+A prime number is a natural number greater than 1 that has exactly two distinct positive divisors: 1 and itself.
+
+Return true if the given number is prime; otherwise, return false.
+
+Examples
+
+Example 1:
+Input: n = 7
+Output: true
+Explanation: 7 has only two factors: 1 and 7.
+
+
+Example 2:
+Input: n = 12
+Output: false
+Explanation: 12 has factors 1, 2, 3, 4, 6, 12.
+
+
+Example 3:
+Input: n = 1
+Output: false
+Explanation: 1 is not a prime number.
+
+
+Example 4:
+Input: n = 2
+Output: true
+Explanation: 2 is the smallest prime number.
+
+
+Constraints
+-10^9 <= n <= 10^9
+
+
+Your tasks
+1. First implement the brute-force approach.
+2. Calculate its time and space complexity.
+3. Optimize it using the square-root observation.
+4. Explain why checking divisors beyond √n is unnecessary.

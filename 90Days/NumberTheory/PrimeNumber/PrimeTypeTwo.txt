@@ -1,0 +1,30 @@
+Problem Statement:
+
+Given an integer n, find two prime numbers whose sum is equal to n.
+
+If such a pair exists, return the two prime numbers. Otherwise, return -1.
+
+Examples:
+Input: n = 10
+Output: 3 7
+
+Explanation: 3 + 7 = 10
+
+
+Input: n = 16
+Output: 3 13
+
+Explanation: 3 + 13 = 16
+
+
+Input: n = 11
+Output: -1
+
+Explanation: No two prime numbers
+can add up to 11.
+
+
+Constraints:
+- \(2 \leq n \leq 10^6\)
+- Both numbers must be prime.
+- Their sum must equal exactly n.

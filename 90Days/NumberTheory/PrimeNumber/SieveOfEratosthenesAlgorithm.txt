@@ -1,0 +1,19 @@
+Sieve of Eratosthenes — Easy Explanation
+Think of it as a process of eliminating non-prime numbers.
+1. First, assume all numbers from 2 to N are prime.
+2. Pick a number that is still marked prime and cross out all its multiples because they cannot be prime.
+3. Start crossing out from i * i, because smaller multiples have already been crossed out.
+4. Repeat this process until √N.
+5. Whatever numbers remain uncrossed are prime numbers.
+Remember it like this:
+
+Assume → Pick → Eliminate multiples → Repeat → Collect primes.
+
+Example: For N = 20, you eliminate multiples of 2, 3 and 5. The remaining primes are:
+
+2, 3, 5, 7, 11, 13, 17, 19
+
+Complexity:
+- Time: O(N log log N)
+- Space: O(N)
+One-line revision: Instead of checking every number individually for primality, Sieve eliminates multiples of prime numbers to find all primes efficiently.
