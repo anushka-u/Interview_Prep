@@ -1,0 +1,38 @@
+Problem: Find All Factors of a Number
+Easy
+ Number Theory
+
+
+Problem Statement:
+
+Given a positive integer n, find and print all the factors (divisors) of that number in ascending order.
+
+A factor of a number is an integer that divides the given number completely, leaving a remainder of zero.
+
+Mathematically:
+\[
+n \bmod i = 0
+\]
+
+where i is a factor of n.
+Examples
+Example 1:
+Input: n = 12
+Output: 1 2 3 4 6 12
+
+Explanation:
+12 is divisible by 1, 2, 3, 4, 6 and 12.
+
+
+Example 2:
+Input: n = 20
+Output: 1 2 4 5 10 20
+
+
+Example 3:
+Input: n = 7
+Output: 1 7
+
+
+Constraints
+1 <= n <= 10^9
