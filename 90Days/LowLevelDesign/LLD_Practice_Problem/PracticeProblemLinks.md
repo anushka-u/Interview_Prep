@@ -1,12 +1,20 @@
 ## Factory Method
-**Problem** -- https://algomaster.io/practice/low-level-design/design-shape-factory
+- **Problem** -- https://algomaster.io/practice/low-level-design/design-shape-factory
 
 ## Builder Pattern
-**Problem** -- https://algomaster.io/practice/low-level-design/implement-builder-email
+- **Problem** -- https://algomaster.io/practice/low-level-design/implement-builder-email
+- **Problem** -- https://algomaster.io/practice/low-level-design/implement-report-builder
 
 ## Command Pattern
-**Problem** -- https://algomaster.io/practice/low-level-design/design-text-editor
-**Problem** -- https://algomaster.io/practice/low-level-design/design-database-transaction
+- **Problem1** -- https://algomaster.io/practice/low-level-design/design-text-editor
+- **Problem2** -- https://algomaster.io/practice/low-level-design/design-database-transaction
 
 ## _Observer Pattern_
-**Problem** -- https://algomaster.io/practice/low-level-design/design-newsletter-publisher
+- **Problem1** -- https://algomaster.io/practice/low-level-design/design-newsletter-publisher
+- **Problem2** -- https://algomaster.io/practice/low-level-design/design-stock-alerts
+
+## Strategy Pattern
+- **Problem** -- https://algomaster.io/practice/low-level-design/design-strategy-discount-calculator
+
+## Prototype Pattern
+- **Problem** -- https://algomaster.io/practice/low-level-design/design-enemy-spawner
