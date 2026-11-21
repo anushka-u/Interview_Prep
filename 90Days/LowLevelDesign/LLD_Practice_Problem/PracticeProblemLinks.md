@@ -18,3 +18,7 @@
 
 ## Prototype Pattern
 - **Problem** -- https://algomaster.io/practice/low-level-design/design-enemy-spawner
+
+## Abstract Factory Pattern
+- **Problem** -- https://algomaster.io/practice/low-level-design/design-factory-theme
+- **Problem** -- https://algomaster.io/practice/low-level-design/design-cloud-provider-factory
