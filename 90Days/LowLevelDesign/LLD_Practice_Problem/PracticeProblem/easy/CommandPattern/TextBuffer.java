@@ -2,6 +2,9 @@ package PracticeProblem.easy.CommandPattern;
 
 // Implement interface EditCommand with execute() and undo()
 
+import java.util.ArrayList;
+import java.util.List;
+
 // Provided receiver. Do not modify.
 class TextBuffer {
     private String text = "";
